@@ -56,4 +56,4 @@ for desc, df in results.items():
 
 cur.close()
 conn.close()
-print("\n✅ Results saved to query_results.xlsx and separate CSV files.")
+
