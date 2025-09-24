@@ -52,8 +52,11 @@ with pd.ExcelWriter("query_results.xlsx") as writer:
 
 for desc, df in results.items():
     safe_name = desc.replace(" ", "_").lower()
-    df.to_csv(f"{safe_name}.csv", index=False)
+    df.to_csv(f"{safe_name}.csv", index=False) 
 
 cur.close()
 conn.close()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c531c0 (new commit)
