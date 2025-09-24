@@ -11,10 +11,10 @@ The script calculates and displays:
 - Top 5 sellers by revenue  
 - Number of orders by year  
 
-##To install requirements
+## To install requirements
 pip install -r requirements.txt
 
-##To start the code
+## To start the code
 python main.py
 
 ## ERD Diagram  
